@@ -6,7 +6,7 @@ class LinkSearchBook extends Component {
         return (
             <div className="open-search">
                 <Link to="/search">
-                    <a>Search Book</a>
+                    <div>Search Book</div>
                 </Link>
             </div>
         )

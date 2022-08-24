@@ -10,7 +10,7 @@ class InputSearch extends Component {
         return (
             <div className="search-books-bar">
                 <Link to='/'>
-                    <a className="close-search">Back To List Book</a>
+                    <div className="close-search">Back To List Book</div>
                 </Link>
                 <div className="search-books-input-wrapper">
                     <input type="text" placeholder="Search by title or author" onChange={this.queryBooksHandle} />
